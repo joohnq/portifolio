@@ -6,13 +6,14 @@ const About = styled.section`
   margin-top: 4rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   height: 90rem;
   @media (min-width: 0px) {
     flex-direction: column;
+    justify-content: center;
   }
   @media (min-width: 768px) {
     flex-direction: row;
+    justify-content: space-between;
     gap: 3rem;
     height: 70rem;
   }
@@ -22,21 +23,21 @@ const About = styled.section`
 `;
 
 const AboutPhoto = styled.div`
-  width: 50%;
-  background: url("../../assets/Profile-photo.jpg") center center no-repeat;
+  background: url("/ProfilePhoto.jpg") center center no-repeat;
   background-size: cover;
-  height: 100%;
   border-radius: 3rem;
   @media (min-width: 0px) {
     width: 100%;
+    height: 50rem;
   }
   @media (min-width: 768px) {
     width: 50%;
+    height: 70rem;
   }
 `;
 
 const AboutContent = styled.div`
-  width: 50%;
+  /* width: 50%; */
   @media (min-width: 0px) {
     width: 100%;
   }
@@ -50,7 +51,7 @@ const AboutDesc = styled.p`
   max-width: 70rem;
   margin: 0 auto;
   @media (min-width: 0px) {
-    font-size: 16rem;
+    font-size: 1.6rem;
     text-align: center;
   }
   @media (min-width: 500px) {
@@ -73,7 +74,7 @@ export default function AboutComponent() {
     <About>
       <AboutPhoto></AboutPhoto>
       <AboutContent>
-        <Title front="Quem sou eu?" back="Sobre" ></Title>
+        <Title front="Quem sou eu?" back="Sobre"></Title>
         <AboutDesc>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
           quod mollitia incidunt rerum aliquid iste culpa officiis tempore?

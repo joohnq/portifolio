@@ -8,23 +8,19 @@ export const Logo = styled.h2`
   font-weight: 800;
 
   @media screen and (min-width: 0px) {
-    font-size: 1.6rem;
+    font-size: 3rem;
   }
 
   @media screen and (min-width: 340px) {
-    font-size: 1.8rem;
-  }
-
-  @media screen and (min-width: 400px) {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 
   @media screen and (min-width: 500px) {
-    font-size: 2.8rem;
+    font-size: 5rem;
   }
 
-  @media screen and (min-width: 992px) {
-    font-size: 3rem;
+  @media screen and (min-width: 1280px) {
+    font-size: 6rem;
   }
 `;
 

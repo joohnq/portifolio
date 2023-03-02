@@ -6,19 +6,15 @@ import Avatar from "../../public/Avatar.png";
 export const Home = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
 
+  margin-bottom: 100px;
+
   padding: 20px 0px 0px 0px;
-  margin-top: 40px;
 
-  height: calc(85vh - 40px);
+  /* height: calc(85vh - 40px); */
   width: 100%;
-
-  /* background: rgba(255, 255, 255, 0.1);
-
-  border-radius: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.18); */
 `;
 
 export const HomeTitle = styled.h1`
@@ -84,7 +80,7 @@ export const HomeTitleSpan = styled.span`
 `;
 
 export const HomeAvatar = styled.div`
-  height: 80%;
+  height: 70%;
 `;
 
 export default function HomeComponent() {
@@ -96,9 +92,10 @@ export default function HomeComponent() {
       </HomeTitle>
       <HomeAvatar>
         <Image
+          className="HomeAvatarImage"
           src={Avatar}
-          width={500}
-          height={600}
+          width={300}
+          height={362}
           alt="Avatar 3d | Representação João Henrique"
           quality={100}
         />
