@@ -12,9 +12,21 @@ html {
 }
 
 body {
-  background-image: url("/background.png");
   /* margin: 0 120px; */
   height: 9000px;
+  background-color: #1F2034;
+}
+
+@media screen and (min-width: 0px) {
+  .HomeAvatarImage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .StacksCardIcon{
+    width: 150px;
+    height: 150px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -22,11 +34,21 @@ body {
     width: 415px;
     height: 500px;
   }
+
+  .LanguagesIcon{
+    width: 100px;
+    height: 100px;
+  }
+
+  .ToolsIcon{
+    width: 80px;
+    height: 80px;
+  }
 }
 
 @media screen and (min-width: 992px) {
   .HomeAvatarImage {
-    width: 498px;
-    height: 600px;
+    width: 700px;
+    height: 800px;
   }
 }

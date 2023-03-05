@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "./TitleComponent";
+import TitleComponent from "./TitleComponent";
 import styled from "styled-components";
 
 const About = styled.section`
@@ -7,6 +7,7 @@ const About = styled.section`
   display: flex;
   align-items: center;
   height: 90rem;
+  width: 100%;
   @media (min-width: 0px) {
     flex-direction: column;
     justify-content: center;
@@ -37,7 +38,6 @@ const AboutPhoto = styled.div`
 `;
 
 const AboutContent = styled.div`
-  /* width: 50%; */
   @media (min-width: 0px) {
     width: 100%;
   }
@@ -74,7 +74,7 @@ export default function AboutComponent() {
     <About>
       <AboutPhoto></AboutPhoto>
       <AboutContent>
-        <Title front="Quem sou eu?" back="Sobre"></Title>
+        <TitleComponent front="Quem sou eu?" back="Sobre"></TitleComponent>
         <AboutDesc>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
           quod mollitia incidunt rerum aliquid iste culpa officiis tempore?

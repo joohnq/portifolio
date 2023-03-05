@@ -11,7 +11,7 @@ export const Title = styled.section`
 export const TitleBack = styled.h2`
   opacity: 0.2;
   width: 100%;
-  @media (min-width: 280px) {
+  @media (min-width: 0px) {
     font-size: 4rem;
   }
   @media (min-width: 340px) {
@@ -31,7 +31,7 @@ export const TitleFront = styled.h3`
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
-  @media (min-width: 280px) {
+  @media (min-width: 0px) {
     font-size: 1.6rem;
   }
   @media (min-width: 340px) {

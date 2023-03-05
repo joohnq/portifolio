@@ -3,8 +3,6 @@ import styled from "styled-components";
 
 export const Logo = styled.h2`
   color: #fff;
-  position: relative;
-  z-index: 9999;
   font-weight: 800;
 
   @media screen and (min-width: 0px) {

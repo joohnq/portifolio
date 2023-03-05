@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
-import Avatar from "../../public/Avatar.png";
+import Avatar from "../../public/sentado2.png";
 
 export const Home = styled.div`
   display: flex;
@@ -13,8 +13,12 @@ export const Home = styled.div`
 
   padding: 20px 0px 0px 0px;
 
-  /* height: calc(85vh - 40px); */
+  height: 100vh;
   width: 100%;
+
+  background: url('/backgroundHome5.png') center center no-repeat;
+
+  background-size: cover;
 `;
 
 export const HomeTitle = styled.h1`
@@ -90,16 +94,6 @@ export default function HomeComponent() {
         {" "}
         <HomeTitleSpan>Olá,</HomeTitleSpan> Sou o João
       </HomeTitle>
-      <HomeAvatar>
-        <Image
-          className="HomeAvatarImage"
-          src={Avatar}
-          width={300}
-          height={362}
-          alt="Avatar 3d | Representação João Henrique"
-          quality={100}
-        />
-      </HomeAvatar>
     </Home>
   );
 }
