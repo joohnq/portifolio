@@ -1,11 +1,13 @@
 import Head from "next/head";
-import Image from "next/image";
 import styled from "styled-components";
 import NavbarComponent from "@/components/NavbarComponent";
 import HomeComponent from "@/components/HomeComponent";
 import AboutComponent from "@/components/AboutComponent";
 import HabilitiesComponent from "@/components/HabilitiesComponent";
 import KnowledgesComponent from "@/components/KnowledgesComponent";
+import ProjectsComponent from "@/components/ProjectsComponent";
+import ContactsComponent from "@/components/ContactComponent";
+import SociaMediaComponent from "@/components/SocialMediasComponent";
 
 export const Main = styled.main`
   display: flex;
@@ -39,9 +41,12 @@ export default function Home() {
       <NavbarComponent />
       <HomeComponent />
       <Main>
+        <SociaMediaComponent />
         <AboutComponent />
         <HabilitiesComponent />
         <KnowledgesComponent />
+        <ProjectsComponent />
+        <ContactsComponent />
       </Main>
     </>
   );

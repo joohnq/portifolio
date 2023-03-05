@@ -1,15 +1,6 @@
 import React from "react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import styled from "styled-components";
 import { Icon } from "@iconify/react";
-
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
 
 export const Knowledges = styled.section`
   margin: 5rem;
@@ -60,7 +51,7 @@ export const ToolsIcons = styled.div`
 
 export default function KnowledgesComponent() {
   return (
-    <Knowledges>
+    <Knowledges id="Knowledges">
       <LanguageIcons>
         <Icon
           className="LanguagesIcon"

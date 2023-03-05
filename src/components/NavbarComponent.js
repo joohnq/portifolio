@@ -142,7 +142,7 @@ export default function NavbarComponent() {
         <Logo />
         <Nav>
           <li>
-            <NavItemText href="/">HOME</NavItemText>
+            <NavItemText href="#Home">HOME</NavItemText>
             <NavItemIcon>
               <Icon
                 className="NavItemIcon"
@@ -154,7 +154,7 @@ export default function NavbarComponent() {
             </NavItemIcon>
           </li>
           <li>
-            <NavItemText href="/">SOBRE</NavItemText>
+            <NavItemText href="#About">SOBRE</NavItemText>
             <NavItemIcon>
               <Icon
                 className="NavItemIcon"
@@ -166,7 +166,7 @@ export default function NavbarComponent() {
             </NavItemIcon>
           </li>
           <li>
-            <NavItemText href="/">HABILIDADES</NavItemText>
+            <NavItemText href="#Habilities">HABILIDADES</NavItemText>
             <NavItemIcon>
               <Icon
                 className="NavItemIcon"
@@ -178,7 +178,7 @@ export default function NavbarComponent() {
             </NavItemIcon>
           </li>
           <li>
-            <NavItemText href="/">PROJETOS</NavItemText>
+            <NavItemText href="#Projects">PROJETOS</NavItemText>
             <NavItemIcon>
               <Icon
                 className="NavItemIcon"
@@ -190,7 +190,7 @@ export default function NavbarComponent() {
             </NavItemIcon>
           </li>
           <li>
-            <NavItemText href="/">CONTATO</NavItemText>
+            <NavItemText href="#Contact">CONTATO</NavItemText>
             <NavItemIcon>
               <Icon
                 className="NavItemIcon"

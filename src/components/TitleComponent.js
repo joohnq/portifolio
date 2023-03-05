@@ -6,6 +6,7 @@ export const Title = styled.section`
   text-transform: uppercase;
   color: #fff;
   position: relative;
+  margin-bottom: 2rem;
 `;
 
 export const TitleBack = styled.h2`
@@ -21,7 +22,10 @@ export const TitleBack = styled.h2`
     font-size: 6rem;
   }
   @media (min-width: 500px) {
-    font-size: 7rem;
+    font-size: 6rem;
+  }
+  @media (min-width: 1280px) {
+    font-size: 9rem;
   }
 `;
 
@@ -42,6 +46,9 @@ export const TitleFront = styled.h3`
   }
   @media (min-width: 500px) {
     font-size: 3rem;
+  }
+  @media (min-width: 1280px) {
+    font-size: 4rem;
   }
 `;
 

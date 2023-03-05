@@ -89,7 +89,7 @@ export const HomeAvatar = styled.div`
 
 export default function HomeComponent() {
   return (
-    <Home>
+    <Home id="Home">
       <HomeTitle>
         {" "}
         <HomeTitleSpan>Olá,</HomeTitleSpan> Sou o João

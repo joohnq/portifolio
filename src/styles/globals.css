@@ -8,13 +8,28 @@
 }
 
 html {
-  -webkit-tap-highlight-color: transparent; /*pode ser transparent também*/
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
 }
 
 body {
-  /* margin: 0 120px; */
-  height: 9000px;
-  background-color: #1F2034;
+  background: url("../../public/background.png");
+}
+
+body::-webkit-scrollbar {
+  width: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #777;
+}
+
+.ProjectsCardImage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
 @media screen and (min-width: 0px) {
@@ -23,7 +38,7 @@ body {
     height: 100%;
   }
 
-  .StacksCardIcon{
+  .StacksCardIcon {
     width: 150px;
     height: 150px;
   }
@@ -35,12 +50,12 @@ body {
     height: 500px;
   }
 
-  .LanguagesIcon{
+  .LanguagesIcon {
     width: 100px;
     height: 100px;
   }
 
-  .ToolsIcon{
+  .ToolsIcon {
     width: 80px;
     height: 80px;
   }

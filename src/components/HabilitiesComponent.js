@@ -10,6 +10,7 @@ export const Habilities = styled.section`
   flex-direction: column;
   width: 100%;
   margin-top: 200px;
+  margin-bottom: 50px;
 `;
 
 export const Stacks = styled.div`
@@ -64,7 +65,7 @@ export const StacksCardTitle = styled.h3`
 
 export default function HabilitiesComponent() {
   return (
-    <Habilities>
+    <Habilities id="Habilities">
       <TitleComponent front="Habilidades" back="Áreas" />
       <Stacks>
         <StacksCard>
