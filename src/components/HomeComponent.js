@@ -1,24 +1,16 @@
 import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
-import Avatar from "../../public/sentado2.png";
+import Background from "../../public/backgroundHome4.png";
 
-export const Home = styled.div`
+export const Home = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 
   margin-bottom: 100px;
-
-  padding: 20px 0px 0px 0px;
-
-  height: 100vh;
-  width: 100%;
-
-  background: url('/backgroundHome5.png') center center no-repeat;
-
-  background-size: cover;
+  position: relative;
 `;
 
 export const HomeTitle = styled.h1`
@@ -26,7 +18,10 @@ export const HomeTitle = styled.h1`
 
   text-align: start;
 
-  height: 20%;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
 
   @media (min-width: 0px) {
     font-size: 3rem;
@@ -53,11 +48,9 @@ export const HomeTitle = styled.h1`
 `;
 
 export const HomeTitleSpan = styled.span`
+  text-align: end;
   @media (min-width: 0px) {
     display: block;
-  }
-  @media (min-width: 768px) {
-    display: inline;
   }
   @media (min-width: 0px) {
     font-size: 3rem;
@@ -90,6 +83,14 @@ export const HomeAvatar = styled.div`
 export default function HomeComponent() {
   return (
     <Home id="Home">
+      <Image
+        className="HomeBackground"
+        quality={100}
+        src={Background}
+        width={1920}
+        height={1080}
+        alt="BACKGROUND"
+      />
       <HomeTitle>
         {" "}
         <HomeTitleSpan>Olá,</HomeTitleSpan> Sou o João

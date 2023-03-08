@@ -131,7 +131,7 @@ export default function ContactsComponent() {
           </ContactFormBox>
           <ContactFormBox>
             <ContactFormLabel htmlFor="email">Email:</ContactFormLabel>
-            <ContactFormInput type="email" name="nemailame" id="email" />
+            <ContactFormInput type="email" name="email" id="email" />
           </ContactFormBox>
           <ContactFormBox>
             <ContactFormLabel htmlFor="message">Mensagem:</ContactFormLabel>

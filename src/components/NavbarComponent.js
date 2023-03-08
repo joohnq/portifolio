@@ -142,18 +142,6 @@ export default function NavbarComponent() {
         <Logo />
         <Nav>
           <li>
-            <NavItemText href="#Home">HOME</NavItemText>
-            <NavItemIcon>
-              <Icon
-                className="NavItemIcon"
-                icon="material-symbols:house-outline-rounded"
-                color="white"
-                width={50}
-                height={50}
-              />
-            </NavItemIcon>
-          </li>
-          <li>
             <NavItemText href="#About">SOBRE</NavItemText>
             <NavItemIcon>
               <Icon
